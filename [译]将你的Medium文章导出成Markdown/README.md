@@ -4,7 +4,7 @@
 
 这是一个避免复制、粘贴和重写你Medium文章的有效解决方案。
 
-![](1*i-S80mDrkJQO2tJ_lhYwfA.png)
+![](./1*i-S80mDrkJQO2tJ_lhYwfA.png)
 
 首先，你需要在你的电脑上安装node。
 
