@@ -1,1 +1,1 @@
-### [译]将你的Medium文章导出成Markdown
+### [[译]将你的Medium文章导出成Markdown](https://github.com/ChengZhengHao/FE-translator/tree/master/%5B%E8%AF%91%5D%E5%B0%86%E4%BD%A0%E7%9A%84Medium%E6%96%87%E7%AB%A0%E5%AF%BC%E5%87%BA%E6%88%90Markdown)
