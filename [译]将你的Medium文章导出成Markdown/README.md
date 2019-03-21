@@ -4,7 +4,7 @@
 
 这是一个避免复制、粘贴和重写你Medium文章的有效解决方案。
 
-![](./1*i-S80mDrkJQO2tJ_lhYwfA.png)
+![](https://github.com/ChengZhengHao/FE-translator/blob/master/%5B%E8%AF%91%5D%E5%B0%86%E4%BD%A0%E7%9A%84Medium%E6%96%87%E7%AB%A0%E5%AF%BC%E5%87%BA%E6%88%90Markdown/1_i-S80mDrkJQO2tJ_lhYwfA.png)
 
 首先，你需要在你的电脑上安装node。
 
