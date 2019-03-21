@@ -1,2 +1,1 @@
-MIT
-
+### [译]将你的Medium文章导出成Markdown
