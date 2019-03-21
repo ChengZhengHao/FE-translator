@@ -1,43 +1,44 @@
-# Export your Medium posts to Markdown
+### 将你的Medium文章导出成Markdown格式
 
-There’s a simple solution to avoid copy/pasting and re-editing your Medium articles.
+#### 原文链接：[Export your Medium posts to Markdown](https://medium.com/@macropus/export-your-medium-posts-to-markdown-b5ccc8cb0050)
 
-![](https://cdn-images-1.medium.com/max/2000/1*i-S80mDrkJQO2tJ_lhYwfA.png)
+这是一个避免复制、粘贴和重写你Medium文章的有效解决方案。
 
-First of all, you need to install node on your computer.
+![](1*i-S80mDrkJQO2tJ_lhYwfA.png)
 
-There is an installer for node for all platforms, just download it and install it like you would any other program:
+首先，你需要在你的电脑上安装node。
 
-* [***https://nodejs.org/en/download/](https://nodejs.org/en/download/)***
+所有平台都有node安装程序, 只需下载并像安装其他程序一样安装即可:
 
-Once you have this installed, you fire up the **Command Prompt** on **Windows** or **Terminal** on **MacOS** or **Linux** and run this command.
+* [https://nodejs.org/zh-cn/download/](https://nodejs.org/zh-cn/download/)
+
+安装完成后, 你可以打开 **Windows** 上的命令提示符(cmd.exe) 或者 **MacOS** 上的终端 或者 **Linux** 去执行这条命令。
 
     npm install -g mediumexporter
 
-This installs **mediumexporter**. Once installed, you can export your Medium post to markdown format.
+安装 **mediumexporter**. 安装完毕后, 你就可以将Medium文章导出成Markdown格式。
 
-Go to the directory where you want to file to be exported to.
+移动到想要导出文件的目录。
 
-***(on Windows)***
+***(Windows)***
 
     cd c:\Users(username)\Desktop 
 
-***(on Mac)***
+***(Mac)***
 
     cd ~/Desktop 
 
-Next type on 1 line:
+执行下面一行:
+ 
+    mediumexporter https://medium.com/p/export-your-medium-posts-to-markdown-b5ccc8cb0050 > medium_post.md
 
-    mediumexporter [https://medium.com/p/export-your-medium-posts-to-markdown-b5ccc8cb0050](https://medium.com/@yeong.crypto/export-your-medium-posts-to-markdown-b5ccc8cb0050) > medium_post.md
+你可以看到名为的**medium_post.md**文件，其中文章内容已经被转换为Markdown语法。 你可能需要做一些微调, 不过大多数情况下格式和结构还不错。
 
-You’ll see a file called **medium_post.md** containing your Medium post in markdown format. You might have to adjust a couple of things, but most of the time it’s fairly good for preserving formatting and structure.
+如果你想直接复制到你的粘贴板 (OSX系统) 你可以添加如下内容 **(| pbcopy)** :
 
-If you want it copied directly to your clipboard (on OSX) you can add the following **(| pbcopy)** :
+    mediumexporter https://medium.com/p/export-your-medium-posts-to-markdown-b5ccc8cb0050 | pbcopy
 
-    mediumexporter [https://medium.com/p/export-your-medium-posts-to-markdown-b5ccc8cb0050](https://medium.com/@yeong.crypto/export-your-medium-posts-to-markdown-b5ccc8cb0050) | pbcopy
+如果你不喜欢使用命令行操作，这还有 **Chrome 浏览器拓展**, 虽然它又快又好，但是部分结果需要自行编辑:
 
-If you don’t like command line solutions there’s also a **Google Chrome Extension**, although it’s good and fast the result does require a bit more editing:
+**https://chrome.google.com/webstore/detail/convert-medium-posts-to-m/aelnflnmpbjgipamcogpdoppjbebnjea?hl=en**
 
-* [**https://chrome.google.com/webstore/detail/convert-medium-posts-to-m/aelnflnmpbjgipamcogpdoppjbebnjea?hl=en](https://chrome.google.com/webstore/detail/convert-medium-posts-to-m/aelnflnmpbjgipamcogpdoppjbebnjea?hl=en)**
-
-![If you enjoyed reading the article don’t forget to applaud.](https://cdn-images-1.medium.com/max/2000/1*eHf64Iyl2VhGN5WVOiu1rw.gif)*If you enjoyed reading the article don’t forget to applaud.*
