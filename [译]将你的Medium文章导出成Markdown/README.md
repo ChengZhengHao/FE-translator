@@ -1,6 +1,6 @@
-### 将你的Medium文章导出成Markdown格式
+# 将你的Medium文章导出成Markdown格式
 
-#### 原文链接：[Export your Medium posts to Markdown](https://medium.com/@macropus/export-your-medium-posts-to-markdown-b5ccc8cb0050)
+## 原文链接：[Export your Medium posts to Markdown](https://medium.com/@macropus/export-your-medium-posts-to-markdown-b5ccc8cb0050)
 
 这是一个避免复制、粘贴和重写你Medium文章的有效解决方案。
 
